@@ -68,7 +68,7 @@ fun Quote() {
 //        val v = i
 //    }
 
-    var quote by remember { mutableStateOf("Click the button to get a quote") }
+    var quote by remember { mutableStateOf("A problem is a chance for you to do your best.") }
     Column(
         modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally,
